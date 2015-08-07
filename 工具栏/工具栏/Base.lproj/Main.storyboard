@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKu-2U-TGh">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="想想" id="dyW-pj-mAq">
+                                        <connections>
+                                            <action selector="返回:" destination="vXZ-lx-hvc" id="SwQ-qQ-VMV"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Aha-dz-PFK"/>
+                                    <barButtonItem title="改变" id="3W7-ui-awr">
+                                        <connections>
+                                            <action selector="change:" destination="vXZ-lx-hvc" id="ISs-I7-k19"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ig4-M6-EFE"/>
+                                    <barButtonItem title="Item" id="nu7-rt-9og"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="QRz-i0-IWq"/>
+                                    <barButtonItem title="Item" id="YYg-aw-gz3"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="NEl-Mc-VLi"/>
+                                    <barButtonItem title="Item" id="Vaf-RD-gXB"/>
+                                </items>
+                                <color key="tintColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLO-yv-0sR">
+                                <rect key="frame" x="279" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ype-dp-2F1">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="HOME" id="zlm-Gl-65n" colorLabel="IBBuiltInLabel-Red">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="save" id="BbO-VP-DTi">
+                                            <color key="tintColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="SAVE:" destination="vXZ-lx-hvc" id="hdh-YE-Jji"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="eM9-Mh-W15">
+                                            <color key="tintColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="ADD:" destination="vXZ-lx-hvc" id="Ie9-7U-n6j"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ype-dp-2F1" firstAttribute="trailing" secondItem="KKu-2U-TGh" secondAttribute="trailing" id="8Kj-4p-uwV"/>
+                            <constraint firstItem="KKu-2U-TGh" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="AnL-FS-wgb"/>
+                            <constraint firstItem="Ype-dp-2F1" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="HvR-TR-Y4k"/>
+                            <constraint firstItem="kLO-yv-0sR" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="269" id="LQR-Nt-2Ia"/>
+                            <constraint firstItem="Ype-dp-2F1" firstAttribute="leading" secondItem="KKu-2U-TGh" secondAttribute="leading" id="RFb-pe-x4m"/>
+                            <constraint firstAttribute="trailing" secondItem="KKu-2U-TGh" secondAttribute="trailing" id="YSb-dg-Ya5"/>
+                            <constraint firstItem="KKu-2U-TGh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="rRm-Ch-ntW"/>
+                            <constraint firstItem="kLO-yv-0sR" firstAttribute="centerX" secondItem="KKu-2U-TGh" secondAttribute="centerX" id="spI-LO-fYg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hah" destination="kLO-yv-0sR" id="9SB-L1-MnF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
