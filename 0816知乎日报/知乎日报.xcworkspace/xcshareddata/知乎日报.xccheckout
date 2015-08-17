@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2EAF832D-DDC9-42A3-A8E5-CD3B6FB35247</string>
+	<string>4CA5E59B-EFB7-40BB-8F70-06E9719FECDF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>自动循环</string>
+	<string>知乎日报</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2474BA4052023E53C4E597E1DA72E38F4AD7FD3E</key>
 		<string>github.com:xiongq/-.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>自动循环2/自动循环.xcodeproj</string>
+	<string>0816知乎日报/知乎日报.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2474BA4052023E53C4E597E1DA72E38F4AD7FD3E</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:xiongq/-.git</string>
